@@ -58,9 +58,14 @@ body {
 .Mainpage h1{
    text-align: center;
     padding-top: 20px;
+    color: #ac9226;
+    text-shadow: 2px 1px black ;
+    letter-spacing: 0.037em
 }
 
-.Mainpage aside{
+/*<!--Banderole sur le coté Gauche -->*/
+
+.left_frame{
     width: 34%;
     height: 100%;
     background-color: rgb(237, 236, 236);
@@ -68,19 +73,21 @@ body {
     border-radius: 20px;
     margin-right: 5px;
 }
-.Mainpage aside hr{
+.left_frame hr{
     width: 50%;
 }
-.Mainpage aside table{
+.left_frame table{
     width: 100%;
     height: 100%;
     margin: 20px;
 }
-.Mainpage aside table td{
+.left_frame table td{
     padding: 8px;
 }
 
-.Mainpage section{
+/*<!--Banderole sur le coté Droit -->*/
+
+.right_frame{
     width: 65%;
     height: 100%;
     background-color: rgb(83, 79, 189);
@@ -89,3 +96,13 @@ body {
     flex-direction: column;
     border-radius: 20px;
 }
+.right_frame hr{
+    width: 120%;
+    border: 1px dashed rgb(237, 236, 236);
+}
+.right_frame ul{
+    padding-left: 50px;
+}
+
+
+
