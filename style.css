@@ -7,7 +7,9 @@ body {
     background-image: url("fond_ecran.jpg");
     background-size:cover;
 }
-
+a{
+    text-decoration: none;
+}
 .page {
     width: 100%;
     max-width: 800px;
@@ -138,8 +140,6 @@ body {
     font-weight: initial;
     text-decoration: underline;
 }
-.right_frame table a {
-    text-decoration: none;
-}
+
 
 
