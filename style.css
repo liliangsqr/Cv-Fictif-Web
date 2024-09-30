@@ -43,6 +43,11 @@ body {
     height: 100%;
     border-radius: 20px;
 }
+.header-wrapper .partie-droite{
+    font-size: 30px;
+    text-align: right;
+}
+
 @keyframes glow{ 100%{box-shadow: 0px 0px 50px hsl(60, 100%, 50%);}}
 #pp:hover{
     animation-iteration-count: infinite;
@@ -63,7 +68,7 @@ body {
     letter-spacing: 0.037em
 }
 
-/*<!--Banderole sur le coté Gauche -->*/
+/*<!--Banderole sur le coté Gauche contact/expertise/centre d'interets -->*/
 
 .left_frame{
     width: 34%;
@@ -85,24 +90,56 @@ body {
     padding: 8px;
 }
 
-/*<!--Banderole sur le coté Droit -->*/
+/*<!--Banderole sur le coté Droit Parcours/expériences/stages-->*/
 
 .right_frame{
     width: 65%;
     height: 100%;
-    background-color: rgb(83, 79, 189);
-    float: left;
+    background-color: rgba(83, 79, 189, 0);
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+
+}
+.right_frame h2{
+    width: 100%;
+    text-align: center;
+}
+.right_frame .item{
+    width: 95%;
+    height: auto;
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-radius: 20px;
 }
 .right_frame hr{
-    width: 120%;
+    width: 100%;
     border: 1px dashed rgb(237, 236, 236);
 }
-.right_frame ul{
-    padding-left: 50px;
+.right_frame table{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
 }
-
+.right_frame table td img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.right_frame ul{
+    padding-left: 30px;
+    padding-bottom: 10px; /*décalage pour pas mettre de br dans le html*/
+    font-size: 14px;
+    text-align: justify;
+}
+.right_frame p{
+    font-weight: bold;
+}
+.right_frame table em{
+    font-weight: initial;
+    text-decoration: underline;
+}
+.right_frame table a {
+    text-decoration: none;
+}
 
 
